@@ -1,63 +1,108 @@
-Procedura installazione repository e apertura index.html
+# Procedura installazione repository e apertura `index.html`
 
-1.  Aprire Terminale
+## Passi principali
 
-cd Desktop
+1. **Aprire il Terminale**
 
-2.  Clonare repository
+   ```bash
+   cd Desktop
+   ```
 
-git clone https://github.com/utente/mia-webapp.git
+2. **Clonare il repository**
 
-3.  Entrare nella cartella
+   ```bash
+   git clone https://github.com/utente/mia-webapp.git
+   ```
 
-cd mia-webapp
+3. **Entrare nella cartella del progetto**
 
-4.  Visualizzare contenuto
+   ```bash
+   cd mia-webapp
+   ```
 
-ls
+4. **Visualizzare il contenuto**
 
-5.  Entrare in src
+   ```bash
+   ls
+   ```
 
-cd src
+5. **Entrare nella cartella `src`**
 
-6.  Verificare presenza file
+   ```bash
+   cd src
+   ```
 
-ls
+6. **Verificare la presenza del file**
 
-Risultato atteso: index.html
+   ```bash
+   ls
+   ```
 
-7.  Aprire il file HTML
+   > Risultato atteso: `index.html`
 
-open index.html
+7. **Aprire il file HTML**
 
-Oppure dalla root:
+   ```bash
+   open index.html
+   ```
 
+---
+
+## Aperture alternative
+
+**Dalla root del progetto:**
+
+```bash
 open src/index.html
+```
 
-Aprire con Chrome:
+**Con Google Chrome:**
 
-open -a “Google Chrome” src/index.html
+```bash
+open -a "Google Chrome" src/index.html
+```
 
-Aprire con Safari:
+**Con Safari:**
 
+```bash
 open -a Safari src/index.html
+```
 
-Aprire con Firefox:
+**Con Firefox:**
 
+```bash
 open -a Firefox src/index.html
+```
 
-Aprire in VS Code:
+**In Visual Studio Code:**
 
+```bash
 code .
+```
 
-Server locale opzionale:
+---
 
+## Server locale (opzionale)
+
+Avviare un server HTTP con Python:
+
+```bash
 python3 -m http.server 8000
+```
 
 Aprire nel browser:
 
+```
 http://localhost:8000/src/index.html
+```
 
-Procedura veloce:
+---
 
-cd Desktop git clone URL cd nome_repo open src/index.html
+## Procedura veloce
+
+```bash
+cd Desktop
+git clone URL
+cd nome_repo
+open src/index.html
+```
