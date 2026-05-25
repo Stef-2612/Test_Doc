@@ -22,3 +22,15 @@ Sposta il terminale nella tua cartella e segui i passaggi. Puoi spuntare le case
 - [ ] **Passo 3:** Clonare il progetto (`git clone <url>`)
 - [ ] **Passo 4:** Entrare nella cartella del progetto (`cd nome-repository`)
 - [ ] **Passo 5:** Verificare lo stato con `git status`
+
+# README
+## Indice
+- [Descrizione](#descrizione)
+- [Funzionalità](#funzionalità)
+- [Installazione](#installazione)
+- [Utilizzo](#utilizzo)
+- [Struttura del progetto](#struttura-del-progetto)
+- [Licenza](#licenza)
+## Descrizione
+
+
