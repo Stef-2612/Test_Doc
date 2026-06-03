@@ -1,0 +1,41 @@
+# Sistema operativo (Linux)
+*~
+.directory
+.Trash-*
+
+# macOS / Windows (utile se il repo viene clonato altrove)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Log e file temporanei
+*.log
+*.tmp
+*.bak
+*.old
+
+# Node / build tools (in caso aggiungerai npm, sass, ecc.)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.sass-cache/
+*.css.map
+*.js.map
+
+# Variabili d'ambiente
+.env
+.env.local
+.env.*.local
+
+# Live Server / preview
+.vscode-test/
