@@ -1,6 +1,9 @@
 # Test_Doc
 Test normale
 
+Licenza :
+https://www.apache.org/licenses/LICENSE-2.0
+
 # Nome Progetto
 
 ## Descrizioni 
